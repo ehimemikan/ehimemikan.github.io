@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Ruby on Railsでなんか作ってみようと思った"
+date:   2016-11-23 07:52:49 +0900
+categories: ruby on rails
+---
 # Ruby on Railsでなんか作ってみようと思った
 
 [プロゲート](http://prog-8.com/)という初心者向けのプログラミング学習サイトが社内の非エンジニア間で流行っています。  
