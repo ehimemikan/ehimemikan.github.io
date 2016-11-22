@@ -2,7 +2,7 @@
 layout: post
 title:  "Ruby on Railsでなんか作ってみようと思った"
 date:   2016-11-23 07:52:49 +0900
-categories: ruby on rails
+categories: jekyll update
 ---
 # Ruby on Railsでなんか作ってみようと思った
 
