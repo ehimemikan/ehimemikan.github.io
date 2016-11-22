@@ -14,18 +14,20 @@ kintoneのスピード感には勝てませんが、1からPHPとかで書くと
 
 # Ruby on Railsをインストールする
 
-https://www.oiax.jp/rails/zakkan/rails_4_2_installation_on_ubunt.html  
+[Ruby on Rails 4.2 を Ubuntu にインストールする手順をかなり丁寧に説明してみました](https://www.oiax.jp/rails/zakkan/rails_4_2_installation_on_ubunt.html)  
 今だとこちらが親切でいい感じなんじゃないでしょうか。
 
-で、軽く実行してみると。
+で、軽く実行してみると。  
+
 ```
-$ rails new foo --skip-bundle
-$ cd foo/
-$ bundle install
-$ rails g scaffold user name:string email:string
-$ rake db:migrate
-$ rails s
+$ rails new foo --skip-bundle  
+$ cd foo/  
+$ bundle install  
+$ rails g scaffold user name:string email:string  
+$ rake db:migrate  
+$ rails s  
 ```
+
 あとはこれで`http://localhost:3000/users`にアクセスするだけで簡単なユーザー登録ができるWebアプリ出来てました。ほえー。（2回目）  
 じゃぁ、なんか作れないかやってみようかな、という気持ちになります。  
-12月の社内ハッカソンまでに一通り触ってなんか形になるもの作っておきたいです。
+12月の社内ハッカソンまでに一通り触ってなんか形になるもの作っておきたいです。  
