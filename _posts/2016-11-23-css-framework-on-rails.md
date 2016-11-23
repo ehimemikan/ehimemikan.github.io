@@ -47,16 +47,16 @@ categories: jekyll update
 
 Material-UIの最新が`v0.16.2`だったので、`package.json`のところは変更しました。  
 加えて、`react`は`~15.3.0`に変更しました。  
-理由は、
+理由は、  
 
 ```
-├─┬ material-ui@0.16.4
-│ ├── lodash.merge@4.6.0
-│ ├── lodash.throttle@4.1.1
-│ └─┬ react-event-listener@0.4.0
-│   └── react-addons-shallow-compare@15.4.0
-├── UNMET PEER DEPENDENCY react@15.4.0
-└── UNMET PEER DEPENDENCY react-tap-event-plugin@0.2.2
+├─┬ material-ui@0.16.4  
+│ ├── lodash.merge@4.6.0  
+│ ├── lodash.throttle@4.1.1  
+│ └─┬ react-event-listener@0.4.0  
+│   └── react-addons-shallow-compare@15.4.0  
+├── UNMET PEER DEPENDENCY react@15.4.0  
+└── UNMET PEER DEPENDENCY react-tap-event-plugin@0.2.2  
 ```
 
 となってしまったからです。
