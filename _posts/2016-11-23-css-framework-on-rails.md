@@ -43,7 +43,7 @@ categories: jekyll update
 これで行ってみます。  
 さっきjQueryをパスした理由は、Reactを使いたかったから、邪魔なものは入れたくなかったんです。  
 
-(Material-UI)[http://www.material-ui.com/]  
+[Material-UI](http://www.material-ui.com/)  
 
 Material-UIの最新が`v0.16.2`だったので、`package.json`のところは変更しました。  
 加えて、`react`は`~15.3.0`に変更しました。  
